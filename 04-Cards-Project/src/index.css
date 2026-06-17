@@ -1,0 +1,110 @@
+*{
+  margin:5px 5px ;
+}
+.parent{
+  min-height: 100vh;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card{
+  width: 290px;
+  background: white;
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  font-family: sans-serif;
+}
+
+/* TOP */
+.top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.left{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  background: white;
+  padding: 5px;
+}
+
+.company-info h3{
+  margin:0;
+  font-size:16px;
+}
+
+.time{
+  font-size:12px;
+  color:gray;
+}
+
+/* SAVE BUTTON */
+.save-btn{
+  background:#f3f3f3;
+  border:none;
+  padding:6px 10px;
+  border-radius:8px;
+  display:flex;
+  gap:5px;
+  align-items:center;
+  cursor:pointer;
+}
+
+/* TITLE */
+.title{
+  margin-top:10px;
+  font-weight:600;
+  font-size:18px;
+}
+
+/* TAGS */
+.tags{
+  display:flex;
+  gap:10px;
+  margin-top:10px;
+}
+
+.tags button{
+  border:none;
+  padding:5px 10px;
+  border-radius:8px;
+  background:#eee;
+  font-size:12px;
+}
+
+/* BOTTOM */
+.bottom{
+  margin-top:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.salary{
+  font-weight:bold;
+}
+
+.location{
+  font-size:12px;
+  color:gray;
+}
+
+.apply-btn{
+  background:black;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:10px;
+  cursor:pointer;
+}
